@@ -1,0 +1,11 @@
+{
+    "name": "Bastien",
+    "age": "24",
+    "address":{
+        "number":"66  ",
+        "complement":"bis",
+        "street":"rue bonnat",
+        "codepostal":"31400",
+        "ville":"Toulouse"
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="newjavascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <script>
+            var tab = new Array(15, 112, 8, 102, 10);
+        </script>    
+
+        <div id="functionJS">
+
+            <button onclick="calculMoyenne(tab)">Calcul de la moyenne</button>
+
+            <button onclick="calculPlusGrandNombre(tab)">Calcul du nombre le plus grand</button>
+
+            <button onclick="lectureJSON()">Afficher le fichier JSON</button>
+
+        </div>
+
+        <div id="infoJSON">
+            <p id="name"></p>
+            <p id="age"></p>
+            <p id="address"></p>
+            <p id="codepostal"></p>
+            <p id="ville"></p>
+        </div>
+
+        <div id="container">
+
+            <div id="chaineBlock"> 
+                <p>Travailler sur cette chaîne : </p><input type="text" name="chaine" id="chaine"/>
+                <script>
+                    var chaine = document.getElementById("chaine").value;
+                </script>
+                <button onclick="stringWork(chaine)">Calcul des chaines</button>
+            </div>    
+
+            <div id="mailBlock">
+                <p>Vérification d'adresse mail : </p><input type="text" name="mail" id="mail"/>
+                <script>
+                    var mail = document.getElementById("mail").value;
+                </script>
+                <button onclick="checkMail(mail)">Vérifiez votre adresse mail</button>
+                <p id="responseMail"></p>
+            </div>
+
+        </div>    
+    </body>
+</html>
